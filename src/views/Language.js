@@ -1,6 +1,6 @@
 import React, {Component} from "react";
 import "../assets/css/Language.css";
-import getLanguages from "../api/endpoints/getLanguages.js";
+import getLanguages from "../api/endpoints/GetLanguages.js";
 
 export default class Language extends Component {
     constructor(props){

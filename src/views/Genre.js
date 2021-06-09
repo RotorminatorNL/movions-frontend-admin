@@ -1,6 +1,6 @@
 import React, {Component} from "react";
 import "../assets/css/Genre.css";
-import getGenres from "../api/endpoints/getGenres.js";
+import getGenres from "../api/endpoints/GetGenres.js";
 
 export default class Genre extends Component {
     constructor(props){
