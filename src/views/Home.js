@@ -1,12 +1,12 @@
 import React, {Component} from "react";
 import { NavLink } from "react-router-dom";
 import "../assets/css/Home.css";
-import ButtonInfo from "../components/ButtonInfo";
-import getCompanies from "../api/endpoints/getCompanies";
-import getGenres from "../api/endpoints/getGenres";
-import getLanguages from "../api/endpoints/getLanguages";
-import getMovies from "../api/endpoints/getMovies";
-import getPersons from "../api/endpoints/getPersons";
+import ButtonInfo from "../components/ButtonInfo.js";
+import getCompanies from "../api/endpoints/getCompanies.js";
+import getGenres from "../api/endpoints/getGenres.js";
+import getLanguages from "../api/endpoints/getLanguages.js";
+import getMovies from "../api/endpoints/getMovies.js";
+import getPersons from "../api/endpoints/getPersons.js";
 
 export default class Home extends Component {
     constructor(props) {

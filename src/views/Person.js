@@ -1,6 +1,6 @@
 import React, {Component} from "react";
 import "../assets/css/Person.css";
-import getPersons from "../api/endpoints/getPersons";
+import getPersons from "../api/endpoints/getPersons.js";
 
 export default class Person extends Component {
     constructor(props){

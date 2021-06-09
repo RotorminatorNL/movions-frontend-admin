@@ -1,6 +1,6 @@
 import React, {Component} from "react";
 import "../assets/css/Movie.css";
-import getMovies from "../api/endpoints/getMovies";
+import getMovies from "../api/endpoints/getMovies.js";
 
 export default class Movie extends Component {
     constructor(props){
