@@ -2,7 +2,7 @@ import React, {Component} from "react";
 import { NavLink } from "react-router-dom";
 import "../assets/css/Home.css";
 import ButtonInfo from "../components/ButtonInfo.js";
-import getCompanies from "../api/endpoints/getCompanies.js";
+import GetCompanies from "../api/endpoints/getCompanies.js";
 import getGenres from "../api/endpoints/getGenres.js";
 import getLanguages from "../api/endpoints/getLanguages.js";
 import getMovies from "../api/endpoints/getMovies.js";
@@ -22,7 +22,7 @@ export default class Home extends Component {
     }
 
     async componentDidMount() {
-        this.setState({companies: await getCompanies()});
+        this.setState({companies: await GetCompanies()});
         this.setState({genres: await getGenres()});
         this.setState({languages: await getLanguages()});
         this.setState({movies: await getMovies()});

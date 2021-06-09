@@ -1,6 +1,6 @@
 import apiRequest from "../apiRequest.js";
 
-const getCompanies = async () =>{
+async function GetCompanies() {
     const response = await apiRequest("http://localhost:5000/api/company", "GET");
     if(response.ok && response.status !== 204) {
         return response.json();
@@ -8,4 +8,4 @@ const getCompanies = async () =>{
     return [];
 }
 
-export default getCompanies;
+export default GetCompanies;
