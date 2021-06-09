@@ -3,6 +3,7 @@
     box-shadow: 0 5px 5px 1px rgb(10 10 10 / 30%);
     min-height: 70px;
     position: fixed;
+    top: 0;
     z-index: 30;
     width: 100vw;
     z-index: 9999;

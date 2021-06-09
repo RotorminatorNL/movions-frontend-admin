@@ -1,11 +1,11 @@
 import apiRequest from "../ApiRequest.js";
 
-async function getMovies() {
-    const response = await apiRequest("http://localhost:5000/api/movie", "GET");
+async function getCompanies() {
+    const response = await apiRequest("http://localhost:5000/api/company", "GET");
     if(response.ok && response.status !== 204) {
         return response.json();
     }
     return [];
 }
 
-export default getMovies;
+export default getCompanies;

@@ -1,0 +1,42 @@
+.buttons {
+    margin-top: 0.5rem;
+}
+
+.button {
+    border-radius: 10px;
+    box-shadow: 
+        0px 2px 1px -1px rgba(0,0,0,0.2), 
+        0px 1px 1px 0px rgba(0,0,0,0.14),
+        0px 1px 3px 0px rgba(0,0,0,0.12);
+    color: black;
+    font-size: larger;
+    margin: .5rem;
+    padding: 1rem;
+    width: 17.33rem;
+    transition: 150ms all;
+}
+
+.button:nth-child(1) {
+    margin-left: 0;
+}
+
+.button:nth-child(3) {
+    margin-right: 0;
+}
+
+.buttons:hover .button{
+    background-color: rgba(255,255,255,.4);
+}
+
+.button:hover {
+    background-color: rgba(255,255,255,.8) !important;
+}
+
+.info {
+    margin: auto;
+    width: 90%;
+}
+
+.info .amount {
+    width: 2rem;
+}
