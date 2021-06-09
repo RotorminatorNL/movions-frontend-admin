@@ -35,7 +35,7 @@ export default class Home extends Component {
         return (
             <div className="full-width mt-4">
                 <div className="blurry-background-white border-radius p-1 text-center">
-                    <h1>Welcome to the CMD of Movions</h1>
+                    <h1>Welcome to the CMS of Movions</h1>
                     <br />
                     <p className="font-size-larger">
                         Here you can manage the data of Movions. 
