@@ -8,4 +8,4 @@ async function getGenres() {
     return [];
 }
 
-export default getGenres;
+export default getGenres();
