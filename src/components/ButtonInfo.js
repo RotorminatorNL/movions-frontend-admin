@@ -6,8 +6,8 @@ export default class buttonInfo extends Component {
             this.props.data.length !== 0 ? 
             this.props.data.slice(0, 3).map((x, index) => 
                 (
-                    <div>
-                        <div className="info text-left flex-row" key={index}>
+                    <div key={index}>
+                        <div className="info text-left flex-row">
                             <div className="amount">
                                 {++index}
                             </div>

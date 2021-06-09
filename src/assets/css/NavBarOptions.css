@@ -24,11 +24,6 @@
         justify-content: flex-start;
         margin-right: auto;
     }
-    .navbar-options > div {
-        background-color: white;
-        height:15px; 
-        width: 2px; 
-    }
     .navbar-options a {
         align-items: center;
         display: flex;

@@ -59,7 +59,6 @@ export default class Navigation extends Component {
                     <div id="navbar-menu" className="navbar-menu">
                         <div className="navbar-options" onClick={this.navBarClose}>
                             <NavLink exact to="/" activeClassName="selected">Home</NavLink>
-                            <div></div>
                             <NavLink exact to="/company" activeClassName="selected">Company</NavLink>
                             <NavLink exact to="/genre" activeClassName="selected">Genre</NavLink>
                             <NavLink exact to="/language" activeClassName="selected">Language</NavLink>
