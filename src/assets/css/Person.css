@@ -1,0 +1,24 @@
+.persons {
+    min-width: 700px;
+}
+
+.persons .header h2:nth-child(1),
+.persons .row div:nth-child(1){
+    width: 10%;
+}
+.persons .header h2:nth-child(2),
+.persons .row div:nth-child(2){
+    width: 20%;
+}
+.persons .header h2:nth-child(3),
+.persons .row div:nth-child(3){
+    width: 20%;
+}
+.persons .header h2:nth-child(4),
+.persons .row div:nth-child(4){
+    width: 25%;
+}
+.persons .header h2:nth-child(5),
+.persons .row div:nth-child(5){
+    width: 25%;
+}

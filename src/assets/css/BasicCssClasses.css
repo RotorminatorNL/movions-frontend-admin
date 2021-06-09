@@ -158,6 +158,9 @@
 }
 .row div{
     padding: 0.5rem 1rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
 }
 
 /* -- </CustomTable> -- */

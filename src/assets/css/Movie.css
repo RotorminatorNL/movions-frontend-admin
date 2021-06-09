@@ -1,0 +1,28 @@
+.movies {
+    min-width: 900px;
+}
+
+.movies .header h2:nth-child(1),
+.movies .row div:nth-child(1){
+    width: 5%;
+}
+.movies .header h2:nth-child(2),
+.movies .row div:nth-child(2){
+    width: 25%;
+}
+.movies .header h2:nth-child(3),
+.movies .row div:nth-child(3){
+    width: 10%;
+}
+.movies .header h2:nth-child(4),
+.movies .row div:nth-child(4){
+    width: 20%;
+}
+.movies .header h2:nth-child(5),
+.movies .row div:nth-child(5){
+    width: 20%;
+}
+.movies .header h2:nth-child(6),
+.movies .row div:nth-child(6){
+    width: 20%;
+}
