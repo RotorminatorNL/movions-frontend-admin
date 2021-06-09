@@ -1,4 +1,4 @@
-import apiRequest from "../ApiRequest.js";
+import apiRequest from "../apiRequest.js";
 
 async function getMovies() {
     const response = await apiRequest("http://localhost:5000/api/movie", "GET");

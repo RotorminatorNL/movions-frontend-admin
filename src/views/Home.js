@@ -1,14 +1,12 @@
 import React, {Component} from "react";
 import { NavLink } from "react-router-dom";
-import GetCompanies from "../api/endpoints/GetCompanies";
-import GetGenres from "../api/endpoints/GetGenres";
-import GetLanguages from "../api/endpoints/GetLanguages";
-import GetMovies from "../api/endpoints/GetMovies";
-import GetPersons from "../api/endpoints/GetPersons";
-import "../assets/css/Card.css";
 import "../assets/css/Home.css";
-import "../assets/css/BasicCssClasses.css";
 import ButtonInfo from "../components/ButtonInfo";
+import getCompanies from "../api/endpoints/getCompanies";
+import getGenres from "../api/endpoints/getGenres";
+import getLanguages from "../api/endpoints/getLanguages";
+import getMovies from "../api/endpoints/getMovies";
+import getPersons from "../api/endpoints/getPersons";
 
 export default class Home extends Component {
     constructor(props) {
@@ -24,17 +22,17 @@ export default class Home extends Component {
     }
 
     async componentDidMount() {
-        this.setState({companies: await GetCompanies()});
-        this.setState({genres: await GetGenres()});
-        this.setState({languages: await GetLanguages()});
-        this.setState({movies: await GetMovies()});
-        this.setState({perons: await GetPersons()});
+        this.setState({companies: await getCompanies()});
+        this.setState({genres: await getGenres()});
+        this.setState({languages: await getLanguages()});
+        this.setState({movies: await getMovies()});
+        this.setState({perons: await getPersons()});
     }
 
     render() {
         return (
-            <div className="full-width mt-4">
-                <div className="blurry-background-white border-radius p-1 text-center">
+            <div className="full-width mt-4 mb-4">
+                <div className="intro blurry-background-white border-radius p-1 text-center">
                     <h1>Welcome to the CMS of Movions</h1>
                     <br />
                     <p className="font-size-larger">

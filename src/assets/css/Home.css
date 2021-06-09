@@ -1,42 +1,49 @@
-.buttons {
+.buttons{
     margin-top: 0.5rem;
 }
-
-.button {
+.button{
     border-radius: 10px;
     box-shadow: 
         0px 2px 1px -1px rgba(0,0,0,0.2), 
         0px 1px 1px 0px rgba(0,0,0,0.14),
         0px 1px 3px 0px rgba(0,0,0,0.12);
-    color: black;
     font-size: larger;
     margin: .5rem;
     padding: 1rem;
     width: 17.33rem;
     transition: 150ms all;
 }
-
-.button:nth-child(1) {
+.button:nth-child(1){
     margin-left: 0;
 }
-
-.button:nth-child(3) {
+.button:nth-child(3){
     margin-right: 0;
 }
-
 .buttons:hover .button{
-    background-color: rgba(255,255,255,.4);
+    background-color: rgba(0, 21, 37, 0.6);
+}
+.button:hover{
+    background-color: rgba(0, 21, 37, 0.8) !important;
 }
 
-.button:hover {
-    background-color: rgba(255,255,255,.8) !important;
-}
-
-.info {
+.info{
     margin: auto;
     width: 90%;
 }
-
-.info .amount {
+.info{
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+.info .amount{
     width: 2rem;
+}
+
+@media screen and (max-width: 1023px) {
+    .button {
+        margin: 0.5rem 1rem !important;
+        width: 100%;
+    }
+
+    .intro{
+        border-radius: 0 !important;
+    }
 }

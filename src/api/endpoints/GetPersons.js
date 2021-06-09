@@ -1,4 +1,4 @@
-import apiRequest from "../ApiRequest.js";
+import apiRequest from "../apiRequest.js";
 
 async function getPersons() {
     const response = await apiRequest("http://localhost:5000/api/person", "GET");

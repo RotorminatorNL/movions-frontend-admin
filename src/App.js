@@ -2,6 +2,7 @@ import {BrowserRouter as Router, Route} from "react-router-dom";
 import Navigation from "./components/Navigation";
 import Footer from "./components/Footer";
 import "./assets/css/App.css";
+import "./assets/css/BasicCssClasses.css";
 import Home from "./views/Home";
 import Company from "./views/Company";
 import Genre from "./views/Genre";

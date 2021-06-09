@@ -1,4 +1,4 @@
-import apiRequest from "../ApiRequest.js";
+import apiRequest from "../apiRequest.js";
 
 async function getGenres() {
     const response = await apiRequest("http://localhost:5000/api/genre", "GET");
