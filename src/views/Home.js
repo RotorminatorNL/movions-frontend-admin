@@ -3,10 +3,10 @@ import { NavLink } from "react-router-dom";
 import "../assets/css/Home.css";
 import ButtonInfo from "../components/ButtonInfo.js";
 import getCompanies from "../api/endpoints/GetCompanies.js";
-import getGenres from "../api/endpoints/getGenres.js";
-import getLanguages from "../api/endpoints/getLanguages.js";
-import getMovies from "../api/endpoints/getMovies.js";
-import getPersons from "../api/endpoints/getPersons.js";
+import getGenres from "../api/endpoints/GetGenres.js";
+import getLanguages from "../api/endpoints/GetLanguages.js";
+import getMovies from "../api/endpoints/GetMovies.js";
+import getPersons from "../api/endpoints/GetPersons.js";
 
 export default class Home extends Component {
     constructor(props) {
