@@ -1,4 +1,4 @@
-import apiRequest from "../apiRequest.js";
+import apiRequest from "../ApiRequest.js";
 
 async function getLanguages() {
     const response = await apiRequest("http://localhost:5000/api/language", "GET");

@@ -1,4 +1,4 @@
-import apiRequest from "../apiRequest.js";
+import apiRequest from "../ApiRequest.js";
 
 async function getCompanies() {
     const response = await apiRequest("http://localhost:5000/api/company", "GET");
