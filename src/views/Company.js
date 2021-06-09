@@ -1,6 +1,6 @@
 import React, {Component} from "react";
 import "../assets/css/Company.css";
-import getCompanies from "../api/endpoints/getCompanies.js";
+import getCompanies from "../api/endpoints/GetCompanies.js";
 
 export default class Company extends Component {
     constructor(props){
