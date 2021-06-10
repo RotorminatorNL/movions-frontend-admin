@@ -59,11 +59,11 @@ export default class Navigation extends Component {
                     <div id="navbar-menu" className="navbar-menu">
                         <div className="navbar-options" onClick={this.navBarClose}>
                             <NavLink exact to="/" activeClassName="selected">Home</NavLink>
-                            <NavLink exact to="/company" activeClassName="selected">Company</NavLink>
-                            <NavLink exact to="/genre" activeClassName="selected">Genre</NavLink>
-                            <NavLink exact to="/language" activeClassName="selected">Language</NavLink>
-                            <NavLink exact to="/movie" activeClassName="selected">Movie</NavLink>
-                            <NavLink exact to="/person" activeClassName="selected">Person</NavLink>
+                            <NavLink exact to="/companies" activeClassName="selected">Companies</NavLink>
+                            <NavLink exact to="/genres" activeClassName="selected">Genres</NavLink>
+                            <NavLink exact to="/languages" activeClassName="selected">Languages</NavLink>
+                            <NavLink exact to="/movies" activeClassName="selected">Movies</NavLink>
+                            <NavLink exact to="/persons" activeClassName="selected">Persons</NavLink>
                         </div>
                     </div>
                 </div>

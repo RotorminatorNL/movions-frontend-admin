@@ -12,7 +12,7 @@ export default class buttonInfo extends Component {
                                 {++index}
                             </div>
                             <div className="title">
-                                {x.name}
+                                {x.name !== null ? x.name : `${x.firstName} ${x.lastName}`}
                             </div>
                         </div>
                         {(this.props.data.length > 3 && index === 3) ? <div className="info text-left">...</div> : null}

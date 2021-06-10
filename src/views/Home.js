@@ -32,7 +32,7 @@ export default class Home extends Component {
     render() {
         return (
             <div className="full-width mt-4 mb-4">
-                <div className="intro blurry-background-white border-radius p-1 text-center">
+                <div className="intro blurry-background-dark border-radius p-1 text-center">
                     <h1>Welcome to the CMS of Movions</h1>
                     <br />
                     <p className="font-size-larger">
@@ -48,28 +48,28 @@ export default class Home extends Component {
                     </p>
                 </div>
                 <div className="buttons flex-wrap flex-justify-content-center">
-                    <NavLink className="button blurry-background-white text-center" exact to="/company">
-                        Company
+                    <NavLink className="button blurry-background-dark text-center" to="/companies">
+                        Companies
                         <hr />
                         <ButtonInfo data={this.state.companies}/>
                     </NavLink>
-                    <NavLink className="button blurry-background-white text-center" exact to="/genre">
-                        Genre
+                    <NavLink className="button blurry-background-dark text-center" to="/genres">
+                        Genres
                         <hr />
                         <ButtonInfo data={this.state.genres}/>
                     </NavLink>
-                    <NavLink className="button blurry-background-white text-center" exact to="/language">
-                        Language
+                    <NavLink className="button blurry-background-dark text-center" to="/languages">
+                        Languages
                         <hr />
                         <ButtonInfo data={this.state.languages}/>
                     </NavLink>
-                    <NavLink className="button blurry-background-white text-center" exact to="/movie">
-                        Movie
+                    <NavLink className="button blurry-background-dark text-center" to="/movies">
+                        Movies
                         <hr />
                         <ButtonInfo data={this.state.movies}/>
                     </NavLink>
-                    <NavLink className="button blurry-background-white text-center" exact to="/person">
-                        Person
+                    <NavLink className="button blurry-background-dark text-center" to="/persons">
+                        Persons
                         <hr />
                         <ButtonInfo data={this.state.perons}/>
                     </NavLink>

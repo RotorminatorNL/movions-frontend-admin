@@ -4,11 +4,16 @@ import Footer from "./components/Footer";
 import "./assets/css/App.css";
 import "./assets/css/BasicCssClasses.css";
 import Home from "./views/Home";
-import Company from "./views/Company";
-import Genre from "./views/Genre";
-import Language from "./views/Language";
-import Movie from "./views/Movie";
-import Person from "./views/Person";
+import Companies from "./views/company/Companies";
+import Company from "./views/company/Company";
+import Genres from "./views/genre/Genres";
+import Genre from "./views/genre/Genre";
+import Languages from "./views/language/Languages";
+import Language from "./views/language/Language";
+import Movies from "./views/movie/Movies";
+import Movie from "./views/movie/Movie";
+import Persons from "./views/person/Persons";
+import Person from "./views/person/Person";
 
 function App() {
     return (
@@ -21,19 +26,34 @@ function App() {
                         <Route exact path="/">
                             <Home/>
                         </Route>
-                        <Route exact path="/company">
+                        <Route exact path="/companies">
+                            <Companies/>
+                        </Route>
+                        <Route exact path="/company/:id">
                             <Company/>
                         </Route>
-                        <Route exact path="/genre">
+                        <Route exact path="/genres">
+                            <Genres/>
+                        </Route>
+                        <Route exact path="/genre/:id">
                             <Genre/>
                         </Route>
-                        <Route exact path="/language">
+                        <Route exact path="/languages">
+                            <Languages/>
+                        </Route>
+                        <Route exact path="/language/:id">
                             <Language/>
                         </Route>
-                        <Route exact path="/movie">
+                        <Route exact path="/movies">
+                            <Movies/>
+                        </Route>
+                        <Route exact path="/movie/:id">
                             <Movie/>
                         </Route>
-                        <Route exact path="/person">
+                        <Route exact path="/persons">
+                            <Persons/>
+                        </Route>
+                        <Route exact path="/person/:id">
                             <Person/>
                         </Route>
                     </div>
