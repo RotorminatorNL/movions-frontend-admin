@@ -22,3 +22,14 @@
 .persons .row div:nth-child(5){
     width: 25%;
 }
+
+@media screen and (max-width: 1023px) {
+    .persons{
+        border-radius: 0 !important;
+        margin-top: 9rem;
+        margin-bottom: 5rem;
+    }
+    .sub-nav-container{
+        border-radius: 0;
+    }
+}

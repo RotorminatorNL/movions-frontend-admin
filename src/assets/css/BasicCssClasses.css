@@ -89,6 +89,24 @@
 .mb-4 {
     margin-bottom: 4rem;
 }
+.m-5 {
+    margin: 5rem;
+}
+.mt-5 {
+    margin-top: 5rem;
+}
+.mb-5 {
+    margin-bottom: 5rem;
+}
+.m-6 {
+    margin: 6rem;
+}
+.mt-6 {
+    margin-top: 6rem;
+}
+.mb-6 {
+    margin-bottom: 6rem;
+}
 
 /* -- </Margin> -- */
 /* -- <Padding> -- */
@@ -164,10 +182,51 @@
 }
 
 /* -- </CustomTable> -- */
+/* -- <SubNav> -- */
 
-.text-center {
+.sub-nav-container{
+    position: fixed;
+    top: 85px;
+    background-color: rgba(0, 21, 37, 0.8);
+    width: 58rem;
+}
+.searchbar{
+    border: none;
+    color: black;
+    padding: 0;
+    padding-left: 0.5rem;
+    height: 2.5rem;
+    width: 44.5rem;
+}
+.create-button{
+    background-color: rgba(255,255,255,1);
+    color: black;
+    cursor: pointer;
+    height: 2.5rem;
+    width: 100%;
+    max-width: 12rem;
+    transition: 150ms all;
+}
+.create-button:hover{
+    background-color: rgba(255,255,255,0.6);
+}
+
+@media screen and (max-width: 1023px){
+    .sub-nav-container{
+        flex-direction: column;
+        height: 6rem;
+        width: calc(100% - 2rem);
+    }
+    .searchbar{
+        width: 100%;
+    }
+}
+
+/* -- </SubNav> -- */
+
+.text-center{
     text-align: center;
 }
-.text-left {
+.text-left{
     text-align: left;
 }
